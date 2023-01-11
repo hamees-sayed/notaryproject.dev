@@ -368,3 +368,60 @@ section:nth-of-type(2) {
   width: 50px;
   border-top: 3px dashed blue;
 }
+
+/* Feature Card Component */
+.feature-container {
+  padding: 0 !important;
+  background-image: url(../semi_circle.svg);
+  background-position: top right;
+  background-repeat: no-repeat;
+}
+
+.feature-text-container h1 {
+  font-size: 3rem;
+  font-weight:$font-weight-bold;
+}
+
+.feature-text-container p {
+  font-size: 2.25rem;
+  color: $notaryproject-light-grey;
+  margin: 0 auto 50px;
+}
+
+.feature-cards {
+  width: 85%;
+  gap: 13px;
+  margin: 0 auto;
+}
+
+.is-bullets ul {
+  list-style-type: circle;
+  padding: 0 0 0 1em;
+}
+
+.card {
+  position: relative;
+  background-color: #0074FF;
+  color: $white;
+  width: 100%;
+  padding: 0 1em 2em;
+}
+
+.feature-description {
+  font-size: 1.125rem;
+  margin-top: 2.7em;
+}
+
+.order-number {
+  position: absolute;
+  font-size: 9rem;
+  color: rgba(26, 26, 26, 0.1);
+  margin-left: 0.05em;
+  font-weight: $font-weight-bold;
+}
+
+.feature-title h1 {
+  font-size: 2rem;
+  font-weight: $font-weight-bold;
+  margin: 2em 0;
+}
