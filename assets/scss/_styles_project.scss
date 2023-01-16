@@ -56,7 +56,7 @@
 }
 
 .navbar {
-  padding: 0.5rem 3rem;
+  padding: 0.5rem 10%;
 }
 
 .o-features__feature {
@@ -263,6 +263,10 @@
   gap: 20px;
 }
 
+.gap-lg {
+  gap: 50px;
+}
+
 .is-align-items-center {
   align-items: center;
 }
@@ -281,7 +285,9 @@
 }
 
 .img-container-md {
-  width: 250px;
+  max-width: 250px;
+  min-width: auto;
+  min-height: auto;
   height: 150px;
 }
 
@@ -305,6 +311,14 @@
   width: 100%;
 }
 
+.width-60 {
+  width: 60%;
+}
+
+.width-70 {
+  width: 70%;
+}
+
 .width-80 {
   width: 80%;
 }
@@ -325,8 +339,12 @@
   margin: 30px 0px;
 }
 
-.padding-md-top-bottom {
-  margin: 30px 5px;
+.margin-lg-top {
+  margin-top: 60px;
+}
+
+.margin-md-top {
+  margin-top: 40px;
 }
 
 .content {
@@ -348,6 +366,15 @@ section:nth-of-type(2) {
 .horizontalCard {
   background: #FFFFFF;
   box-shadow: 0px 7px 30px rgba(0, 0, 0, 0.2);
+  padding: 1.4em 1.8rem;
+  font-size: 1.1rem;
+}
+
+.verticalCard {
+  background: #FFFFFF;
+  box-shadow: 0px 7px 30px rgba(0, 0, 0, 0.2);
+  padding: 1.5em 2.7rem;
+  padding-bottom: 3.6rem;
 }
 
 .flex-30 {
@@ -373,6 +400,7 @@ section:nth-of-type(2) {
   margin-left: 0;
   margin-right: 0;
 }
+
 
 /* Feature Card Component */
 .feature-container {
@@ -429,4 +457,25 @@ section:nth-of-type(2) {
   font-size: 2rem;
   font-weight: $font-weight-bold;
   margin: 2em 0;
+}
+
+.text-blue-gradient {
+  background-image: linear-gradient(180deg, #32CCFC 0%, #4240B9 100%);
+  background-size: 100%;
+  background-repeat: repeat;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.font-size-md {
+  font-size: 1.4rem;
+  font-weight: 300;
+}
+
+.font-size-sm {
+  font-size: 1rem;
+  font-weight: 200;
 }
