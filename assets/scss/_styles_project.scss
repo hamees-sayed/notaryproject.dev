@@ -410,19 +410,13 @@ section:nth-of-type(2) {
   background-repeat: no-repeat;
 }
 
-.feature-text-container h1 {
-  font-size: 3rem;
-  font-weight:$font-weight-bold;
-}
-
 .feature-text-container p {
-  font-size: 2.25rem;
+  font-size: 1.5rem;
   color: $notaryproject-light-grey;
   margin: 0 auto 50px;
 }
 
 .feature-cards {
-  width: 85%;
   gap: 13px;
   margin: 0 auto;
 }
@@ -437,26 +431,26 @@ section:nth-of-type(2) {
   background-color: #0074FF;
   color: $white;
   width: 100%;
-  padding: 0 1em 2em;
+  padding: 0 1em 1em;
 }
 
 .feature-description {
-  font-size: 1.125rem;
-  margin-top: 2.7em;
+  font-size: 1rem;
+  margin-top: 1.5em;
 }
 
 .order-number {
   position: absolute;
-  font-size: 9rem;
+  font-size: 6.75rem;
   color: rgba(26, 26, 26, 0.1);
   margin-left: 0.05em;
   font-weight: $font-weight-bold;
 }
 
 .feature-title h1 {
-  font-size: 2rem;
+  font-size: 1.5rem;
   font-weight: $font-weight-bold;
-  margin: 2em 0;
+  margin: 1.5em 0;
 }
 
 .text-blue-gradient {
